@@ -1,0 +1,14 @@
+<h1 class="text-center">Grid Frame</h1>
+<div class="grid-container">
+  <div class="grid-y grid-frame">
+    <div class="header shrink cell">
+      Encabezado aquí
+    </div>
+    <div class="contenido auto cell">
+      Todo el contenido aquí
+    </div>
+    <div class="footer shrink cell">
+      footer aquí
+    </div>
+  </div>
+</div>
