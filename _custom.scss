@@ -5,3 +5,22 @@
 .cell {
   background-color: cornflowerblue;
 }
+// Sematico
+.contenido{
+  @include xy-grid-container();
+  .principal{
+    @include xy-grid();
+    .nosotros{
+      @include xy-cell();
+      @include breakpoint(medium){
+      @include xy-cell(70%);
+      }
+    }
+    aside{
+      @include xy-cell();
+      @include breakpoint(medium){
+      @include xy-cell(30%);  
+      }
+    }
+  }
+}
